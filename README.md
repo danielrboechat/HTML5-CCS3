@@ -90,6 +90,6 @@ This repository reflects my learning journey and technical progress throughout t
 
 This repository is intended **for educational purposes only**, focusing on learning, practice, and personal development throughout the course.
 
-Created by **Daniel Boechat** as part of my learning journey in web development.
+---
 
-📚 *Learning web development step by step.*
+Created by **Daniel Boechat** as part of my learning journey in web development.

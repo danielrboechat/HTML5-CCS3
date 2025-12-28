@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 631px) {
+    header, nav{
+    flex-flow: column nowrap;
+    }
+
+    a{
+    flex: auto;
+    width: 90vw;
+    }
+}

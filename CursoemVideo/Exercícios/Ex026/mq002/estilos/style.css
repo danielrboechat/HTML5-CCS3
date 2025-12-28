@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* ESTILOS ALL */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width: 100vh;
+    height: 100vh;
+    background-color: rgb(38, 0, 255);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 0px rgb(20, 0, 133);
+    padding: 10px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+    <p>
+        <label for="iest">Estado: </label>
+        <select name="estado" id="iest">
+            <option value="" selected> -- Escolha --</option>
+            <optgroup label="Região Sudeste">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="SP">São Paulo</option>
+            </optgroup>
+            <optgroup label="Região Centro-Oeste">
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MT">Mato Grosso</option>
+            </optgroup>
+            <optgroup label="Outros">
+                <option value="TO">Tocantins</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="AC">Acre</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="iprof">Profissão: </label>
+        <input type="text" name="prof" id="iprof" list="lista" placeholder="--Escolha--">
+        <datalist id="lista">
+                <option value="HS">Sistema de Armas</option>
+                <option value="HM">Maquinista</option>
+                <option value="HE">Eletrônico</option>
+                <option value="IM">Administração</option>
+        </datalist>
+    </p>
+        <!-- <p>
+        <label for="imil">Profissão²: </label>
+        <input type="text" name="mil" id="imil" list="listaa" placeholder="--Escolha--">
+        <datalist id="listaa">
+                <optgroup label="Corpo da Armada">
+                    <option value="HS">Sistema de Armas</option>
+                    <option value="HM">Maquinista</option>
+                    <option value="HE">Eletrônico</option>
+                </optgroup>
+
+                <optgroup label="Corpo de Fuzileiros Navais">
+                    <option value="HS">Sistema de Armas</option> !NAO ESTÁ FUNCIONANDO OPTGROUP MAS NA W3C TEM!
+                    <option value="HM">Maquinista</option>
+                    <option value="HE">Eletrônico</option>
+                </optgroup>
+
+                <optgroup label="Corpo de Intendentes da Marinha">
+                    <option value="IM">Administração</option>
+                </optgroup>
+        </datalist>
+    </p> -->
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+
+    <p>
+        <label for="imsg">Mensagem: </label><br><br>
+        <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Escreva sua mensagem aqui!" style="resize: none;"></textarea>
+    </p>
+    </form>
+</body>
+</html>
